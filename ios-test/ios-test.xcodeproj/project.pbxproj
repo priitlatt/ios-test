@@ -222,7 +222,7 @@
 				TargetAttributes = {
 					38FADE171BB982A500B58AA6 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = T44NESVEFN;
+						DevelopmentTeam = 58L39YKB7N;
 					};
 					38FADE2D1BB982A500B58AA6 = {
 						CreatedOnToolsVersion = 7.0;
@@ -481,10 +481,12 @@
 			baseConfigurationReference = 267FD3041094AE110CC0BB3E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "ios-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.priitlatt.ios-test";
+				PRODUCT_BUNDLE_IDENTIFIER = "mobi.lab.ios-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos2.0;
 			};
 			name = Debug;
 		};
@@ -493,10 +495,12 @@
 			baseConfigurationReference = 14F2A4A7957168D2736FE75D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "ios-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.priitlatt.ios-test";
+				PRODUCT_BUNDLE_IDENTIFIER = "mobi.lab.ios-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos2.0;
 			};
 			name = Release;
 		};
