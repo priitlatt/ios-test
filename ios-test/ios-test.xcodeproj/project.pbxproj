@@ -486,7 +486,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mobi.lab.ios-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos2.0;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -500,7 +500,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mobi.lab.ios-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos2.0;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
